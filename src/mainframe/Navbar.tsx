@@ -1,7 +1,7 @@
 import { Fragment, useEffect, useState } from 'react';
 
 const LINKS = ['Labs', 'Studio', 'Openings', 'Shop'] as const;
-const CONTACT_HREF = 'mailto:hello@mainframe.co';
+const CONTACT_HREF = 'mailto:alankritsrivastava26@gmail.com';
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -31,7 +31,7 @@ export default function Navbar() {
       <header className="fixed top-0 left-0 z-10 w-full px-5 sm:px-8 py-4 sm:py-5 flex justify-between items-center">
         {/* Logo */}
         <a href="#/mainframe" className="flex items-center gap-3 text-black" aria-label="Mainframe, home">
-          <span className="text-[21px] sm:text-[26px] tracking-tight text-black" style={{ fontFamily: 'var(--font-heading)' }}>
+          <span className="text-[21px] sm:text-[26px] font-medium tracking-tight text-black" style={{ fontFamily: 'var(--font-heading)' }}>
             Mainframe®
           </span>
           <span

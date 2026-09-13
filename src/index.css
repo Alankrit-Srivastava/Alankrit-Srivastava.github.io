@@ -2,8 +2,8 @@
 
 /* ---------- Mainframe landing (spec) ---------- */
 :root {
-  --font-heading: 'HelveticaNowDisplay-Medium', 'Helvetica Neue', Arial, sans-serif;
-  --font-body: 'HelveticaNowDisplayW01-Rg', 'Helvetica Neue', Arial, sans-serif;
+  --font-heading: 'Inter Tight', 'Helvetica Neue', Arial, sans-serif; /* used at weight 500 */
+  --font-body: 'Inter Tight', 'Helvetica Neue', Arial, sans-serif;
 }
 
 body {

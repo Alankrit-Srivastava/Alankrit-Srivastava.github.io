@@ -3,13 +3,14 @@ import { usePrefersReducedMotion } from '../shared/usePrefersReducedMotion';
 import { useTypewriter } from '../shared/useTypewriter';
 
 const TYPED_TEXT = 'Glad you stopped in. Good taste tends to find us. Now, what are we building?';
-const EMAIL = 'hello@mainframe.co';
+// Mainframe is a concept: every contact action reaches the portfolio owner, never the real mainframe.co domain.
+const EMAIL = 'alankritsrivastava26@gmail.com';
 
 const PILLS = [
-  { label: 'Pitch us an idea', subject: 'An idea for Mainframe' },
-  { label: 'Come work here', subject: 'Working at Mainframe' },
-  { label: 'Send a brief hello', subject: 'Hello' },
-  { label: 'See how we operate', subject: 'How Mainframe operates' },
+  { label: 'Pitch us an idea', subject: 'An idea (via the Mainframe concept page)' },
+  { label: 'Come work here', subject: 'Working together (via the Mainframe concept page)' },
+  { label: 'Send a brief hello', subject: 'Hello (via the Mainframe concept page)' },
+  { label: 'See how we operate', subject: 'How you work (via the Mainframe concept page)' },
 ] as const;
 
 const PILL_SIZE =

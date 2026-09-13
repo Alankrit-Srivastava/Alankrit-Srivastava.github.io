@@ -44,8 +44,10 @@ src/
 - **Theme isolation.** Every portfolio rule is scoped under `.pf` and uses `--pf-*` font tokens, so it never
   touches the Mainframe page or Tailwind utilities. Avoid naming portfolio classes after Tailwind utilities
   (`grid`, `outline`, `hidden`, `flex`, `block`…): unlayered CSS and utilities would both apply.
-- **Fonts.** The Mainframe page loads Helvetica Now Display from onlinewebfonts.com as specified. Helvetica Now is a
-  commercial Monotype typeface; buy a web license (or swap to a free face such as Inter Display) before client use.
+- **Fonts.** The Mainframe page uses Inter Tight from Google Fonts (SIL Open Font License) in place of Helvetica Now
+  Display, whose free web copies are unlicensed.
+- **Mainframe is a concept.** mainframe.co is a real company, so the page carries a concept label and every contact
+  action goes to Alankrit's own address.
 - **Characters.** `src/assets/character.mp4` (the avatar, 4.0 s) and `src/assets/rabbit.mp4` (4.46 s, the source's two head
   turns joined at the front-facing frame) are re-encoded from the originals: keyframe every 4 frames so seeks land in
   ~10 ms, no audio, backdrop nudged to kraft #CAA683. Paper sections (`.paper`) use that exact colour, so the films' edges
