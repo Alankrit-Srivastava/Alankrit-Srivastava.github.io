@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+/* ---------- Mainframe landing (spec) ---------- */
+:root {
+  --font-heading: 'HelveticaNowDisplay-Medium', 'Helvetica Neue', Arial, sans-serif;
+  --font-body: 'HelveticaNowDisplayW01-Rg', 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* ---------- page grounds per route ---------- */
+/* The portfolio paints the whole document dark so overscroll never flashes white. */
+html:has(.pf) {
+  background: #17120e;
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+html:has(.pf) body {
+  background: #17120e;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:has(.pf) {
+    scroll-behavior: auto;
+  }
+}
